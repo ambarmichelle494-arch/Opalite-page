@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Knewave&family=Oldenburg&family=Pacifico&family=Quintessential&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: #f0ddbc;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: #F6EEE0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#sec{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#log{
+    width:250px;
+    height:250px;
+}
+nav{
+    width:700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:24px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#a45c40;
+}
+a:hover{
+    color: #e4b7a0;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+#bheader{
+    width:200px;
+    height:40px;
+    border-radius: 3px;
+    font-size:20px;
+}
+#slogan{
+    width:100%;
+    height:auto;
+    background-color:#F6EEE0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+}
+#name{
+    color: #a45c40;
+    font-family: "Quintessential", serif;
+    font-size: clamp(40px, 12vw, 200px);
+    word-wrap: break-word;
+    text-align: center;
+
+}
+#back1{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#F6EEE0;
+}
+#img1{
+    width:300px;
+    height:350px;
+    background-image:url(../img/vp1.jpg);
+    background-size: cover;
+    border-radius:5px;
+}
+#img2{
+    width:700px;
+    height:350px;
+    background-image:url(../img/vp3.jpg);
+    background-size: cover;
+    border-radius:5px;
+}
+#img3{
+    width:300px;
+    height:350px;
+    background-image:url(../img/vp2.jpg);
+    background-size: cover;
+    border-radius:5px;
+}
+#back2{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color:#F6EEE0;
+}
+#text{
+    width:450px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    background-color:#a2674f;
+    padding:20px;
+    color: #F6EEE0;
+    border-radius:5px;
+}
+#h{
+    width:450px;
+    height:150px;
+    font-family:"Quintessential", serif ;
+    display: flex;
+}
+.text{
+    padding-bottom:30px;
+    font-family: "Oldenburg", serif;
+    font-size:17px;
+}
+#imgg{
+    width:750px;
+    height:600px;
+    background-image:url(../img/13948.jpg);
+    background-size: cover;
+    border-radius:5px;
+}
+#back3{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-image: url(../img/marco-plano-laico-con-flores-y-piedras.jpg);
+    background-size: cover;
+    border-radius:5px;
+}
+#im1{
+    width:500px;
+    height:600px;
+    background-image: url(../img/m1.jpg);
+    background-size: cover;
+}
+#i{
+    width:auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#h3{
+    font-size: 50px;
+    font-family:"Quintessential", serif ;
+    color:#F6EEE0;
+}
+#im{
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#im2{
+    width:250px;
+    height:300px;
+    background-color: #ffec7f;
+    background-image: url(../img/m2.jpg);
+    background-size: cover;
+}
+#im3{
+    width:250px;
+    height:300px;
+    background-color: #7ff2ff;
+    background-image: url(../img/m3.jpg);
+    background-size: cover;
+}
+#back4{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    padding: 40px;
+    background-color:#F6EEE0;
+}
+#t1{
+    width:100%;
+    height:auto;
+    display: flex;
+}  
+#t2{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: flex-end;
+}
+#back{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#F6EEE0;
+}
+
+#img6{
+    width:700px;
+    height:350px;
+    background-image:url(../img/img8.jpg);
+    background-size: cover;
+    border-radius:5px;
+}
+#img4{
+    width:300px;
+    height:350px;
+    background-image:url(../img/img4.jpg);
+    background-size: cover;
+    border-radius:5px;
+}
+#img7{
+    width:300px;
+    height:350px;
+    background-image:url(../img/img9.jpg);
+    background-size: cover;
+    border-radius:5px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background:linear-gradient(#F6EEE0,#f0ddbc);
+}
+#logg{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+#list{
+    width: calc(100% - 400px);
+    font-size:20px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.li{
+    display: flex;
+    justify-content: space-around;
+}
+.li ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.li a{
+    text-decoration: none;
+    color:#a45c40;
+}
+#boton{
+    background-color:#F6EEE0;
+    width: 150px;
+    height: 40px;
+    border-radius:3px;
+    border-color:#a45c40;
+    color:#a45c40;
+}
+#boton:hover{
+    background-color:#a45c40 ;
+    color:#F6EEE0;
+}
+#menu-btn {
+    display: none;
+    background-color: #a45c40;
+    color: #F6EEE0;
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    #menu-btn {
+        display:block;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        background-color: #f0ddbc;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    #name {
+        font-size: 100px;
+    }
+
+    #text {
+        width: 90%;
+    }
+
+    #imgg {
+        width: 90%;
+        height: 400px;
+    }
+
+    #img6 {
+        width: 90%;
+    }
+    #img2{
+        width: 90%;
+    }
+    #im1 {
+        width: 90%;
+    }
+    #name {
+        font-size: 60px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    #log {
+        width: 150px;
+        height: 150px;
+    }
+
+    #text {
+        width: 100%;
+    }
+
+    #imgg {
+        width: 100%;
+        height: 300px;
+    }
+
+    #h3 {
+        font-size: 30px;
+    }
+    #back{
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #list {
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #list ul {
+        align-items: center;
+        gap:25px;
+    }
+}
+ @media (min-width: 601px) and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #sec {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #log {
+    width: 180px;
+    height: 180px;
+  }
+
+  nav ul {
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #name {
+    font-size: 120px;
+    text-align: center;
+  }
+
+  #back1 {
+    gap: 15px;
+  }
+
+  #img1{
+    width: 80%;
+    height: 300px;
+  }
+  #img2{
+    width: 80%;
+    height: 300px;
+  }
+  #img3 {
+    width: 80%;
+    height: 300px;
+  }
+
+  #back2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #text {
+    width: 90%;
+    height: auto;
+  }
+
+  #imgg {
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  #back3 {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  #im1 {
+    width: 80%;
+    height: 450px;
+  }
+
+  #im2{
+    width: 300px;
+    height: 300px;
+  }
+  #im3 {
+    width: 300px;
+    height: 300px;
+  }
+
+  #h3 {
+    font-size: 40px;
+  }
+
+  #back4 {
+    text-align: center;
+    gap: 20px;
+  }
+
+  #boton {
+    width: 180px;
+    height: 45px;
+  }
+
+  #back {
+    gap: 15px;
+  }
+
+  #img4{
+    width: 80%;
+    height: 300px;
+  }
+  #img6{
+    width: 80%;
+    height: 300px;
+  }
+  #img7 {
+    width: 80%;
+    height: 300px;
+  }
+
+  footer {
+    text-align: center;
+    gap: 20px;
+    
+  }
+
+  #logg {
+    width: 100%;
+ }
+ #list{
+    width:100%;
+ }
+}
